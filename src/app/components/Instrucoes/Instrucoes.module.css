@@ -1,0 +1,36 @@
+.container {
+  display: flex;
+  background-color: white;
+  width: 88%;
+  margin: 8rem auto 0 auto;
+}
+
+.innerContainer {
+  display: flex;
+  flex-direction: column;
+  margin-left: 3rem;
+}
+
+.innerContainer li {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  margin-bottom: 2rem;
+}
+
+.innerContainer p {
+  font-size: 22px;
+  opacity: 0.6;
+}
+
+.startPhrase {
+  margin-top: 4rem;
+  margin-bottom: 0.5rem;
+}
+
+.boldPhrase {
+  font-family: var(--font-secondary);
+  font-size: 42px;
+  margin-bottom: 2rem;
+  color: hsla(0, 0%, 13%, 1);
+}
